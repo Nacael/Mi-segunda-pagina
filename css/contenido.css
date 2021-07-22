@@ -1,0 +1,103 @@
+.contenido{
+    margin: 80px;
+    margin-left: 12%;
+    padding-top: 35%;
+    text-align: center;
+    align-content: center;
+    box-align: center;
+    text-decoration: none;
+}
+
+.contenido h2 {
+margin-top: 6px;
+margin-bottom: 6px;
+font-size: 18px;
+color: black;
+position: relative;
+float: none;
+text-decoration: none;
+}
+
+.contenido h1 {
+    margin: 15px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    bottom: -10px;
+    width: 100%;
+    height: 30px;
+    background: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.contenido img:hover {
+     transform: scale(1.1);
+}
+.contenido h2:hover {
+    transform: scale(1.1);
+}
+
+.contenido p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: black;
+    position: relative;
+    float: none;
+    text-decoration: none;
+    
+    }
+    
+
+    
+.contenido12{
+    width: 95%;
+    max-width: 100%;
+  
+    transform: scale(1.1);
+    text-decoration: none;
+    
+}
+.contenido12 img:hover {
+    transform: scale(1.01);
+}
+
+header .contenedor12 {
+    display: table;
+}
+.contenido12{
+    margin: 90px;
+    margin-left: 12%;
+    padding-top: 4px;
+    box-align: center;
+}
+
+.contenido12 h4{
+    font-size: 26px;
+    color: ivory;
+    background: rgb(0, 0, 0);
+    text-align: center;
+   
+}
+
+.contenido12 p{
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+.contenido12 h8{
+    font-size: 45px;
+    color: red;
+    border-top:  3px solid  rgb(0, 0, 0);
+    border-bottom:  3px solid  rgb(0, 0, 0);
+   
+}
+
+.contenido12 a{
+    margin-left: 10%;
+    
+}
+.oferta table{
+    border-top:  1px solid  rgb(0, 0, 0);
+    border-bottom:  1px solid  rgb(0, 0, 0);
+
+}
+

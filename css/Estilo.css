@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap);
+@import url(menu.css);
+@import url(banner.css);
+@import url(contenido.css);
+@import url(footer.css);
+@import url(icono.css);
+@import url(login.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    text-decoration: none;
+   
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+header {
+    width: 100%;
+    height: 100px;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index:100 ;
+}
+.contenedor {
+    width: 95%;
+    max-width: 100%;
+    margin: auto;
+    text-decoration: none;
+
+}
+
+h1 {
+    font-size: 35px;
+    float: left;
+    color: rgb(255, 255, 255);
+    
+}
+.menu h1{
+    font-size: 18px;
+    float: left;
+    color:rgb(7, 200, 248)
+
+}
+h2{
+    font-size: 35px;
+    float: left;
+    color: rgb(0, 217, 255);
+    
+}
+
+header .contenedor {
+    display: table;
+}
+
+.buscar{
+    position: absolute;
+    padding: 05px;
+
+}
+.buscar input {
+    font-size: 20px;
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;
+    
+}
+
+.buscar{
+    margin-left: 30%;
+    font-size: 20px;
+    margin-top: -3.5%;
+}
+.lup {
+    position: absolute;
+    top: 6%;
+    right: 0;
+    background-color: rgb(0, 225, 255);
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 20%;
+
+}
+
+ul{
+    list-style: none;
+}
+.icono {
+    margin-left: 5px;
+    margin-right: 3%;
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+
+.sesión1 {
+    margin-right: 7%;
+    position: absolute;
+    text-align: center;
+    top: 17px;
+    right: 0;
+    text-decoration: none;
+    
+}
+.sesión1 h2{
+    font-size: 20px;
+    border-right: aqua;
+    text-decoration: none;
+   
+}
+.oferta h3{
+    font-size: 15px;
+    text-align: center;  
+    color: #000;
+}
+.oferta table :hover{
+    text-decoration: none;
+  
+}
+.oferta a :hover{
+    text-decoration: none;
+}
+
+.sesión1 :hover {
+    transform: scale(1.1);
+    
+}
+.icono :hover {
+    transform: scale(1.1);
+}
